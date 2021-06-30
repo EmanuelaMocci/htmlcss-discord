@@ -64,7 +64,7 @@ nav li a{
 button{
     display: inline-block;
     border: none;
-    border-radius: 20px;
+    border-radius: 25px;
     padding: 10px;
 }
 
@@ -98,11 +98,34 @@ p{
 
 .testo>button{
     font-size: 15px;
-    padding: 15px;
+    padding: 15px 20px;
     margin: 10px;
 }
 
 .testo button:last-child{
     background-color: #24282B;
     color: white;
+}
+
+/* Prima sezione main con immagine */
+.prima-sezione{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+img{
+    display: inline-block;
+}
+h2{
+    color: black;   
+    font-size: 40px;
+}
+.testo-descrizione{
+    float: right;
+    width: 270px;
+    margin-top: 50px;
+    margin-right: 0;
+}
+.testo-descrizione p:last-child{
+    color: black;
 }
