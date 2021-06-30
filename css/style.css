@@ -1,0 +1,75 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Common */
+/* .container{
+    max-width: 70%;
+    margin: auto;
+} */
+
+
+/* Header */
+header{
+    background-color: #3161E0;
+}
+.contenuto-header{
+    max-width: 70%;
+    margin: auto;
+    height: 80px;
+}
+
+.logo{
+    float: left;
+    padding-top: 25px;
+    height: 80px;
+}
+
+.lista-nav{
+    float: left;
+}
+
+nav{
+    height: 80px;
+    line-height: 80px;
+}
+nav li{
+    display: inline-block;
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    margin: auto;
+}
+
+.bottone{
+    line-height: 80px;
+    float: right;
+}
+button{
+    display: inline-block;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+/* Da attivare dopo */
+/* .accedi{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-left: 20px;
+    float: right;
+} */
+
+/* Main */
+/* .hero{
+    background-color: #3161E0;
+    border: 1px solid black;
+    height: 500px;
+} */
