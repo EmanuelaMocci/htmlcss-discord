@@ -108,24 +108,37 @@ p{
 }
 
 /* Prima sezione main con immagine */
-.prima-sezione{
+.sezione-main{
     max-width: 70%;
     margin: auto;
     margin-top: 50px;
 }
-img{
-    display: inline-block;
-}
+
 h2{
     color: black;   
     font-size: 40px;
 }
 .testo-descrizione{
     float: right;
-    width: 270px;
-    margin-top: 50px;
-    margin-right: 0;
+    width: 280px;
+    margin-top: 30px;
 }
 .testo-descrizione p:last-child{
     color: black;
 }
+ /* Seconda sezione main con immagine */
+
+ .testo-descrizione2{
+    float: left;
+    color: black;
+    width: 280px;
+    margin-top: 50px;
+ }
+#img2{
+    float: right;
+}
+ .sezione-main-due{
+    max-width: 70%;
+    margin: auto;
+    margin-top: 300px;
+ }
