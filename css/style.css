@@ -20,7 +20,8 @@ body{
 
 /* Header */
 header{
-    background-color: #265EE9;
+    background-color:#265EE9;
+    height: 80px
 }
 .contenuto-header{
     max-width: 70%;
@@ -33,6 +34,7 @@ header{
     padding-top: 25px;
     height: 80px;
     width: 20%;
+    vertical-align: middle;
 }
 
 .lista-nav{
@@ -62,7 +64,6 @@ nav li a{
     width: 20%;
 }
 button{
-    display: inline-block;
     border: none;
     border-radius: 25px;
     padding: 10px;
@@ -72,13 +73,9 @@ button{
 .hero{
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    background-position: center;
     height: 500px;
     position: relative;
-}
-
-h1{
-    font-weight: 900;
-    font-size: 50px;
 }
 
 .testo{
@@ -88,7 +85,11 @@ h1{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%)
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
 }
 
 p{
@@ -126,19 +127,38 @@ h2{
 .testo-descrizione p:last-child{
     color: black;
 }
+img{
+    float: left;
+}
  /* Seconda sezione main con immagine */
 
  .testo-descrizione2{
     float: left;
     color: black;
     width: 280px;
-    margin-top: 50px;
  }
 #img2{
     float: right;
 }
- .sezione-main-due{
+ .sezione-main-due, .sezione-main-tre{
     max-width: 70%;
     margin: auto;
     margin-top: 300px;
  }
+
+.testo-ultima-sezione p:last-child{
+    color: black;
+}
+.testo-ultima-sezione{
+    width: 800px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.sezione-main-quattro{
+    position: relative;
+    margin-top: 300px;
+}
+
